@@ -1,0 +1,20 @@
+{
+  "name": "cloudinary-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node chain-video-transformation/server.js",
+    "upload": "node chain-video-transformation/index.js",
+    "upload-subtitles": "node chain-video-transformation/upload-subtitles.js",
+    "dev": "nodemon chain-video-transformation/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "express": "^5.1.0"
+  }
+}
